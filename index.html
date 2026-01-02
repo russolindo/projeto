@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerraBuild Solutions - Civil Construction Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>TerraBuild Solutions</h1>
+                    <p>Building Tomorrow, Today</p>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#budget">Budget</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#visuals">Visuals</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="mobile-menu" id="mobileMenu">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#budget">Budget</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#visuals">Visuals</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>TerraBuild Solutions</h2>
+            <p>Experts in Sustainable and Innovative Civil Construction. Complete construction, renovation and project management services.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Our Projects</a>
+                <a href="#contact" class="btn btn-outline">Request a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+                <p>Learn more about our company, mission, and values</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Building a Sustainable Future</h3>
+                    <p>At TerraBuild Solutions, we combine technical expertise with sustainable innovation to create structures that respect the environment and exceed expectations.</p>
+                    <p>Founded in 2024, we operate locally and nationally with a focus on efficient and intelligent construction. Our team of engineers, architects and construction professionals is committed to delivering high quality projects on time and within budget.</p>
+                    <p>We believe that construction should not only meet today's needs but also preserve resources for future generations. That's why we prioritize eco-friendly materials, energy-efficient designs, and sustainable building practices in all our projects.</p>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+                <div class="about-image">
+                    <div class="img-placeholder">
+                        <img src="img/team.png" alt="Team">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Comprehensive construction solutions tailored to your needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image img-placeholder">
+                        <img src="img/resident.png" alt="Residential Construction"><br>
+                    </div>
+                    <div class="service-content">
+                        <h3>Residential Construction</h3>
+                        <p>We design and build houses and residential buildings focusing on comfort, energy efficiency and modern design.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image img-placeholder">
+                        <img src="img/commertial.png" alt="Commercial Construction"><br>
+                    </div>
+                    <div class="service-content">
+                        <h3>Commercial & Industrial Construction</h3>
+                        <p>Commercial buildings, offices and industrial structures adapted to client needs.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image img-placeholder">
+                        <img src="img/bridge.png" alt="Bridge and Infrastructure"><br>
+                    </div>
+                    <div class="service-content">
+                        <h3>Public Works & Infrastructures</h3>
+                        <p>Bridges, roads and urban infrastructures with high durability materials.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image img-placeholder">
+                        <img src="img/renovations.png" alt="Renovation and Rehabilitation"><br>
+                    </div>
+                    <div class="service-content">
+                        <h3>Renovation & Rehabilitation</h3>
+                        <p>Transformation of existing spaces with sustainable techniques and eco-friendly materials.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image img-placeholder">
+                        <img src="img/green.png" alt="Green Building and Sustainability"><br>
+                    </div>
+                    <div class="service-content">
+                        <h3>Sustainable Construction</h3>
+                        <p>Specialization in green building, use of renewable energy and environmental certification.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image img-placeholder">
+                        <img src="img/design.jpg" alt="Green Building and Sustainability"><br>
+                    </div>
+                    <div class="service-content">
+                        <h3>Design & Project Management</h3>
+                        <p>We provide full project planning, technical design and construction management, ensuring deadlines, budgets and quality standards are met from concept to completion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Completed Projects</h2>
+                <p>Some of our most significant projects</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-image img-placeholder">
+                        <img src="img/sintragreen.png" alt="Sintra Green Valley"><br>
+                    </div>
+                    <div class="project-content">
+                        <h3>Residencial Green Valley</h3>
+                        <div class="project-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Sintra</span>
+                            <span><i class="fas fa-euro-sign"></i> 850,000</span>
+                        </div>
+                        <div class="project-details">
+                            <p>Set of 10 single-family homes with energy certification A+, solar panels and rainwater collection system.</p>
+                            <p><strong>Duration:</strong> 14 months</p>
+                            <p><strong>Client:</strong> Private</p>
+                        </div>
+                        <div class="project-images">
+                            <div class="img-placeholder"><img src="img/modern.png" alt="Modern Interior"></div>
+                            <div class="img-placeholder"><img src="img/bathroom.jpg" alt="Modern Bathroom"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-image img-placeholder">
+                        <img src="img/bridge2.jpg" alt="Sado River Bridge"><br>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ponte do Rio Sado</h3>
+                        <div class="project-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Setúbal</span>
+                            <span><i class="fas fa-euro-sign"></i> 320,000</span>
+                        </div>
+                        <div class="project-details">
+                            <p>Pedestrian and cycle bridge with 120m length, corten steel structure and low consumption LED lighting.</p>
+                            <p><strong>Duration:</strong> 8 months</p>
+                            <p><strong>Client:</strong> Setúbal City Council</p>
+                        </div>
+                        <div class="project-images">
+                            <div class="img-placeholder"><img src="img/bridge21.jpg" alt="Detail 1"></div>
+                            <div class="img-placeholder"><img src="img/bridge22.jpg" alt="Detail 2"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-image img-placeholder">
+                        <img src="img/school.jpg" alt="Sustainable Primary School"><br>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sustainable Primary School</h3>
+                        <div class="project-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Barreiro</span>
+                            <span><i class="fas fa-euro-sign"></i> 1,200,000</span>
+                        </div>
+                        <div class="project-details">
+                            <p>Construction of a school with 8 classrooms, library and outdoor space. Recycled materials, natural ventilation system and green roof.</p>
+                            <p><strong>Duration:</strong> 18 months</p>
+                            <p><strong>Client:</strong> Ministry of Education</p>
+                        </div>
+                        <div class="project-images">
+                            <div class="img-placeholder"><img src="img/sinterior.jpg" alt="School Interior"></div>
+                            <div class="img-placeholder"><img src="img/sclass.jpg" alt="Classroom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Orçamento -->
+    <section id="budget">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sample Budget</h2>
+                <p>Transparent pricing for a typical residential project</p>
+            </div>
+            
+            <div class="budget-container">
+                <div class="budget-intro">
+                    <h3>Typical Project: Single Family House T3</h3>
+                    <p><strong>Location:</strong> Almada | <strong>Area:</strong> 150 m² | <strong>Estimated Duration:</strong> 9 months</p>
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Estimated Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Materials</td>
+                            <td>€35,000</td>
+                        </tr>
+                        <tr>
+                            <td>Labor</td>
+                            <td>€25,000</td>
+                        </tr>
+                        <tr>
+                            <td>Equipment</td>
+                            <td>€8,000</td>
+                        </tr>
+                        <tr>
+                            <td>Licenses & Taxes</td>
+                            <td>€5,000</td>
+                        </tr>
+                        <tr>
+                            <td>Contingency (10%)</td>
+                            <td>€7,300</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td>TOTAL</td>
+                            <td>€80,300</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="budget-images">
+                    <div class="img-placeholder">
+                        <img src="img/houseplant.jpg" alt="Blueprints and Plant">
+                    </div>
+                    <div class="img-placeholder">
+                        <img src="img/house.jpg" alt="3D House Model">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Clientes e Fornecedores -->
+    <section id="clients">
+        <div class="container">
+            <div class="section-title">
+                <h2>Clients & Partners</h2>
+                <p>Trusted by leading organizations and working with top suppliers</p>
+            </div>
+            
+            <div class="clients-container">
+                <h3 style="text-align: center; margin-bottom: 30px; color: var(--primary-color);">Our Clients</h3>
+                <div class="clients-grid">
+                    <div class="client-item">
+                        <div class="client-logo">
+                            <img src="img/CML.png" alt="Lisbon City Council">
+                        </div>
+                        <p>Public Infrastructure</p>
+                    </div>
+                    
+                    <div class="client-item">
+                        <div class="client-logo">
+                            <img src="img/RPAE.png" alt="Ministry of Education">
+                        </div>
+                        <p>Government Projects</p>
+                    </div>
+                    
+                    <div class="client-item">
+                        <div class="client-logo">
+                            <img src="img/elitesoaces.png" alt="Elite Spaces Real Estate">
+                        </div>
+                        <p>Private Developer</p>
+                    </div>
+                    
+                    <div class="client-item">
+                        <div class="client-logo">
+                            <img src="img/mh.png" alt="Modern Hospitality">
+                        </div>
+                        <p>Hotel Construction</p>
+                    </div>
+                </div>
+                
+                <h3 style="text-align: center; margin-bottom: 30px; color: var(--primary-color);">Our Suppliers</h3>
+                <div class="suppliers-grid">
+                    <div class="supplier-item">
+                        <div class="client-logo">
+                            <img src="img/Cimpor.png" alt="Cimpor">
+                        </div>
+                        <p>Cement & Mortars</p>
+                    </div>
+                    
+                    <div class="supplier-item">
+                        <div class="client-logo">
+                            <img src="img/acometal.jpg" alt="">
+                        </div>
+                        <p>Metal Structures</p>
+                    </div>
+                    
+                    <div class="supplier-item">
+                        <div class="client-logo">
+                            <img src="img/sm.png" alt="Solucoes Madeira">
+                        </div>
+                        <p>Wood Materials</p>
+                    </div>
+                    
+                    <div class="supplier-item">
+                        <div class="client-logo">
+                            <img src="img/exk.png" alt="EXK">
+                        </div>
+                        <p>Equipment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Elementos Visuais -->
+    <section id="visuals" class="visual-elements">
+        <div class="container">
+            <div class="section-title">
+                <h2>Visual Elements</h2>
+                <p>Brand identity and marketing materials</p>
+            </div>
+            
+            <div class="visual-grid">
+                <div class="visual-card">
+                    <h3 class="visual-title">Advertising Poster</h3>
+                    <div class="visual-placeholder poster-placeholder">
+                        <div style="text-align: center; padding: 20px;">
+                            <h2 style="color: var(--primary-color); margin-bottom: 10px;">Building Tomorrow, Today</h2>
+                            <p style="margin-bottom: 20px;">Sustainable Construction Solutions</p>
+                            <div style="background-color: var(--accent-color); color: white; padding: 10px 20px; display: inline-block; border-radius: 4px;">
+                                Contact Us: info@terrabuild.pt
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="visual-card">
+                    <h3 class="visual-title">Brochure Cover</h3>
+                    <div class="visual-placeholder brochure-placeholder">
+                        <div style="text-align: center; padding: 20px;">
+                            <h2 style="color: var(--primary-color); margin-bottom: 10px;">TerraBuild Solutions</h2>
+                            <p style="margin-bottom: 15px;">Complete Construction Services</p>
+                            <ul style="text-align: left; display: inline-block;">
+                                <li>Residential Construction</li>
+                                <li>Commercial Projects</li>
+                                <li>Public Works</li>
+                                <li>Sustainable Building</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="visual-card">
+                    <h3 class="visual-title">Social Media Ad</h3>
+                    <div class="visual-placeholder social-placeholder">
+                        <div style="text-align: center; padding: 20px;">
+                            <h3 style="color: var(--primary-color); margin-bottom: 15px;">New Project: Eco-Friendly Residence</h3>
+                            <p style="margin-bottom: 15px;">Now accepting bookings for our sustainable housing development in Sintra.</p>
+                            <div style="background-color: var(--secondary-color); color: white; padding: 8px 16px; display: inline-block; border-radius: 4px;">
+                                Learn More
+                            </div>
+                            <div style="margin-top: 20px; font-size: 12px; color: #666;">
+                                #SustainableConstruction #GreenBuilding #TerraBuild
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch for inquiries, quotes, or collaborations</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-details">
+                        <p>Feel free to contact us for any questions about our services or to request a personalized quote for your project.</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Rua da Construção, 123<br>2830-123 Barreiro, Portugal</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+351 212 345 678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@terrabuild.pt</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 9:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <h3>TerraBuild Solutions</h3>
+                    <p>Experts in sustainable and innovative civil construction. Building tomorrow, today.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua da Construção, 123, Barreiro</p>
+                    <p><i class="fas fa-phone"></i> +351 212 345 678</p>
+                    <p><i class="fas fa-envelope"></i> info@terrabuild.pt</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2026 TerraBuild Solutions. All rights reserved. | This website was created for the Technical English project at ESTBarreiro.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
